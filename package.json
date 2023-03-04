@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "replace": "tsx replace.ts",
+    "restore": "tsx restore.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "tsx": "^3.12.3",
+    "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "element-plus": "^2.2.33",
+    "vue": "^3.2.47"
+  }
+}

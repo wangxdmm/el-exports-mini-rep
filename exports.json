@@ -1,0 +1,18 @@
+{
+  "exports": {
+    ".": {
+      "types": "./es/index.d.ts",
+      "import": "./es/index.mjs",
+      "require": "./lib/index.js"
+    },
+    "./es/*": {
+      "types": "./es/*/index.d.ts",
+      "import": "./es/*/index.mjs",
+      "require": "./es/*/index.js"
+    },
+    "./lib": "./lib/index.js",
+    "./lib/*.js": "./lib/*.js",
+    "./lib/*": "./lib/*.js",
+    "./*": "./*"
+  }
+}
